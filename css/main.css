@@ -610,3 +610,13 @@ flex-wrap: nowrap;}
   margin-left: 25%;
   font-size: 70%;
 }
+
+.thanks {
+  align-items: center;
+      text-align: center;
+
+}
+
+.thanks img{
+  max-width: 40%;
+}
