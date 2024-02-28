@@ -227,7 +227,8 @@ In case I decide to prefer the two-line arrangement on phones
   margin-bottom: 10vh !important;
 }
 .flex-container4 h2 {
-font-size: 60% !important;}
+font-size: 50% !important;
+}
 }
 
 @media print,
@@ -625,4 +626,10 @@ flex-wrap: nowrap;}
 
 .thanks img{
   max-width: 40%;
+}
+
+body {
+   min-height: 400px;
+   margin-bottom: 150px;
+   clear: both;
 }
