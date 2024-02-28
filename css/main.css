@@ -451,26 +451,30 @@ align-items: center;
 	  transform:  translateY(75%) translateX(-100%)  rotate(45deg);
 }
 
+.flex-container4 .item h2,
+.flex-container4 a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  text-align: center;
+  width: 100%; /* Ensures the text takes the full width */
+  margin: 0;  /* Remove any margin that might interfere with centering */
+}
+
 .item h2 {
-  position: relative;
   background-color: inherit;
-  margin: 30%;
   font-size: 90%;
   font-weight: 900;
-  transform: rotate(-45deg) !important;
 }
 
 .flex-container4 a {
   color: #003747;
-  text-align: center;
-  position: relative;
   text-decoration: none;
   display: inline-block;
   background-color: inherit;
-  margin: 30%;
   font-size: 90%;
-    font-weight: 900;
-  transform: rotate(-45deg) !important;
+  font-weight: 900;
 }
 
 .flex-container4 a:focus,
