@@ -219,6 +219,10 @@ In case I decide to prefer the two-line arrangement on phones
   .flex-container3 {
     flex-wrap: wrap !important;
   }
+  .flex-container2 {
+    flex-wrap: wrap !important;
+  }
+
 .btn_center {
   margin-bottom: 10vh !important;
 }
@@ -535,13 +539,15 @@ align-items: center;
 .flex-container2 img {
     width: 60%;
   align-self: center;
+  margin: 1%;
 }
 
 .flex-container2 {
   display: flex; /* or inline-flex */
   justify-content: space-evenly;
 margin: 2vh;
-margin-bottom: 4vh}
+margin-bottom: 4vh;
+flex-wrap: nowrap;}
 
 .flex-container2 p {
   font-size: 1.5em;
