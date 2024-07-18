@@ -233,6 +233,7 @@ font-size: 50% !important;
 
 ul, li {
 font-size: inherit;}
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
@@ -578,6 +579,12 @@ flex-wrap: nowrap;}
 }
 
 .flex-container3>div img {
+    width: 100%;
+  align-self: center;
+  padding: 1%;
+}
+
+.flex-container3>div iframe {
     width: 100%;
   align-self: center;
   padding: 1%;
