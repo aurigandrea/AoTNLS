@@ -231,6 +231,8 @@ font-size: 50% !important;
 }
 }
 
+ul, li {
+font-size: inherit;}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
@@ -637,3 +639,4 @@ body {
    margin-bottom: 150px;
    clear: both;
 }
+
